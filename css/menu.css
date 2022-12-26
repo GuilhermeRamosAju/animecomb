@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@400;600&display=swap');
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+header{
+    background-color: #054242;
+}
+.introducao{
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    padding: 34px 140px;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+.logo{
+    font-family:  'Anton', sans-serif;
+    color: #b6b5b5;
+    display: inline;
+    font-size: 36px;
+    
+}
+.barra-pesquisa{
+    height: 42px;
+    
+    padding: 4px 12px;
+    background-color: #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    
+}
+::-webkit-input-placeholder{
+    color: #05424271;
+}
+.texto-pesquisa{
+    width: 0px;
+    background-color: #cccccc;
+    border: none;
+    outline: none;
+    padding: 0;
+    color: #054242;
+    font-size: 24px;
+    line-height: 42px;
+    transition: .5s;
+}
+.botao-pesquisa{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    padding: 2px;
+    transition: .5s;
+}
+.barra-pesquisa:hover > .texto-pesquisa{
+    width: 500px;
+}
+.barra-pesquisa:hover > .botao-pesquisa{
+    background-color: #b6b5b5;
+}
+#menu-icon{
+    color: #cccccc;
+    font-weight: 700;
+    border-radius: 4px;
+    font-size: 36px;
+}
+.botao{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #054242;
+    background-color: #b6b5b5;
+    padding: 16px 32px;
+    border-radius: 8px;
+    
+}
