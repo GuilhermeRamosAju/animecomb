@@ -5,40 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AnimeComb</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    
+    <link rel="stylesheet" href="./css/style.css">    
 </head>
 <body>
-    <header>
-        <div class="introducao">
-          <div class="logo">AnimeComb</div>
-          <div class="menu">
-            <div class="barra-pesquisa">
-                
-                <input type="text" class="texto-pesquisa" placeholder="Pesquisar anime">
-                <a href="#" class="botao-pesquisa">
-                    <img src="lupa.svg" alt="Lupa de busca" height="36" width="36">
-                </a>
-          </div>
-          <div class="menu-hamb">
-            <span id="menu-icon" class="material-symbols-outlined">menu</span>
-            <nav id="menu-opcoes">
-                <ul class="menu-board">
-                    <li><a href="#">Destaques</a></li>
-                    <li><a href="#">Novidades</a></li>
-                    <li><a href="#">Melhores avaliados</a></li>
-                </ul>
-            </nav>
-          </div>
-         
-          <a href="#" class="botao">Login/Cadastre-se</a> </div>
-            
-        </div>    
+    <header class="menu-bg">
+        <div class="menu">
+            <a href="index.html"><img src="imgs/Logo.svg" alt="AnimeComb logo"></a>
+            <form action="#">
+                <a href="#"><img src="imgs/lupa.svg" alt="lupa"></a>
+                <input type="text" name="barra-busca" id="barra-busca">
+            </form>
+            <img src="imgs/menu-hamburguer.svg" alt="menu">
+            <a href="#" class="botao">Entrar|Cadastrar</a>     
+        </div>  
     </header>
-    <script src="script.js"></script>
+
 </body>
 </html>

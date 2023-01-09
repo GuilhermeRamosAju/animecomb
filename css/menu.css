@@ -1,123 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@400;600&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    height: 100vh;
-    font-family: 'Josefin Sans', sans-serif;
-}
-header{
-    background-color: #054242;
-}
-li{
-    list-style: none;
-    text-decoration: none;
-}
-.introducao{
-    max-width: 1600px;
-    margin: 0 auto;
-    display: flex;
-    padding: 34px 140px;
-    align-items: center;
-    justify-content: space-between;
+.menu-bg{
+    background-color: var(--cor-principal-01);
 }
 .menu{
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    gap: 56px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-.logo{
-    font-family:  'Anton', sans-serif;
-    color: #b6b5b5;
-    display: inline;
-    font-size: 36px;
-}
-.barra-pesquisa{
-    height: 42px;
-    padding: 4px 12px;
-    background-color: #cccccc;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 8px; 
-}
-::-webkit-input-placeholder{
-    color: #05424271;
-}
-.texto-pesquisa{
-    width: 0px;
-    background-color: #cccccc;
+
+#barra-busca{
+    background-color: var(--cor-secundaria-01);
     border: none;
-    outline: none;
-    padding: 0;
-    color: #054242;
-    font-size: 24px;
-    line-height: 42px;
-    transition: .5s;
-}
-.botao-pesquisa{
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    padding: 2px;
-    transition: .5s;
-}
-.barra-pesquisa:hover > .texto-pesquisa{
-    width: 500px;
-    cursor: pointer;
-}
-.barra-pesquisa:hover > .botao-pesquisa{
-    background-color: #b6b5b5;
-}
-.menu-hamb{
-    position: relative;
-}
-#menu-icon{
-    color: #cccccc;
-    font-weight: 700;
     border-radius: 4px;
-    font-size: 36px;
-}
-#menu-icon:hover{
-    color: #0b6b6b;
-    cursor: pointer;    
-}
-#menu-board{
-    display: none;
-    position: absolute;
-    width: 100%;
-    top: 81px;
-    left: -30px;
-}
-
-
-#menu-opcoes.active #menu-board{
-    display: flex;
-}
-
-#menu-opcoes > ul > li > a{
-    display: block;
-    font-size: 20px;
-    padding: 16px 8px;
-
-    background-color: #b6b5b5;
-    color: #054242;
-    text-decoration: none;
-}
-#menu-opcoes > ul > li > a:hover{
-    background-color: #cccccc;
-}
-#menu-opcoes > ul > li:last-child > a{
-    border-radius: 0px 0px 4px 4px;
-}
-.botao{
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    color: #054242;
-    background-color: #b6b5b5;
-    padding: 16px 32px;
-    border-radius: 8px;
-    
 }

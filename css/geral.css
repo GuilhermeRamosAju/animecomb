@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    --cor-principal-01: #054242;
+    --cor-principal-02: #1CAEAE;
+    --cor-secundaria-01: #D9D9D9;
+    --cor-secundaria-02: #F6F6F6;
+}
+
+.botao{
+    padding: 16px 12px;
+    border-radius: 4px;
+    background-color: var(--cor-secundaria-01);
+    color: var(--cor-principal-01);
+}
+
