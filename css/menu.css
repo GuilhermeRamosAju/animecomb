@@ -3,15 +3,32 @@
 }
 .menu{
     max-width: 1200px;
+    padding: 32px 140px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
-
+.menu-interacao{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.buscar{
+    display: flex;
+    align-items: center;
+}
+.lupa{
+    background-color: var(--cor-secundaria-01);
+    border-radius: 4px 0px 0px 4px;
+    height: 35px;
+}
+.lupa img{
+    height: 30px;
+}
 #barra-busca{
     background-color: var(--cor-secundaria-01);
     border: none;
-    border-radius: 4px;
+    border-radius: 0px 4px 4px 0px;
+    height: 35px;
 }

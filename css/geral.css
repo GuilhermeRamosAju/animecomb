@@ -5,12 +5,18 @@
     --cor-principal-02: #1CAEAE;
     --cor-secundaria-01: #D9D9D9;
     --cor-secundaria-02: #F6F6F6;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 .botao{
+    font-size: 1.2rem;
+    line-height: 1.1rem;
+    text-decoration: none;
     padding: 16px 12px;
     border-radius: 4px;
     background-color: var(--cor-secundaria-01);
     color: var(--cor-principal-01);
 }
-
+.botao:hover{
+    background-color: var(--cor-secundaria-02);
+    transition: 0.2s;
+}
