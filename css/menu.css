@@ -2,16 +2,31 @@
     background-color: var(--cor-principal-01);
 }
 .menu{
-    max-width: 1200px;
+    max-width: 1400px;
     padding: 32px 140px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+@media (max-width:1060px){
+    .menu{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .menu-interacao{
+        gap: 20px;
+    } 
+}
+@media (max-width:1060px){
+    header .botao{
+        display: none;
+    }
+}
+
 .menu-interacao{
     display: flex;
-    flex-wrap: wrap;
+    
     gap: 60px;
 }
 .buscar{
@@ -21,14 +36,31 @@
 .lupa{
     background-color: var(--cor-secundaria-01);
     border-radius: 4px 0px 0px 4px;
-    height: 35px;
+    height: 40px;
 }
 .lupa img{
     height: 30px;
 }
 #barra-busca{
+    display: block;
+    box-sizing:border-box;
     background-color: var(--cor-secundaria-01);
     border: none;
+    outline: none;
     border-radius: 0px 4px 4px 0px;
-    height: 35px;
+    height: 40px;
+    padding: 5px;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    color: var(--cor-principal-01);
+}
+#barra-busca:focus{
+    background-color: var(--cor-secundaria-02);
+}
+.menu-hamb{
+    padding: 5px 10px;
+}
+.menu-hamb:hover{
+    border-radius: 20%;
+    background-color: var(--cor-principal-03);
 }
