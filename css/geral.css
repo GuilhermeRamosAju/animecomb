@@ -13,6 +13,10 @@
 body{
     background-color: var(--cor-fundo);
 }
+img{
+    max-width: 100%;
+    display: block;
+}
 .botao{
     font-size: 1.2rem;
     line-height: 1.1rem;

@@ -1,5 +1,6 @@
 .menu-bg{
     background-color: var(--cor-principal-01);
+    width: 100%;
 }
 .menu{
     max-width: 1400px;
@@ -9,25 +10,33 @@
     justify-content: space-between;
     align-items: center;
 }
-@media (max-width:1060px){
-    .menu{
-        flex-direction: column;
-        gap: 20px;
-    }
-    .menu-interacao{
-        gap: 20px;
-    } 
+.menu-interacao{
+    display: flex;
+    gap: 60px;
 }
 @media (max-width:1060px){
     header .botao{
         display: none;
+    }  
+}
+@media (max-width:850px){
+    .menu{
+        flex-wrap: wrap;
+        gap: 25px;
+        padding: 16px 60px;
     }
 }
-
-.menu-interacao{
-    display: flex;
-    
-    gap: 60px;
+@media (max-width:700px){
+    .menu{
+        justify-content: center;
+        padding: 20px 20px;
+    }
+    .menu-interacao{
+        display: flexbox;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
 }
 .buscar{
     display: flex;
