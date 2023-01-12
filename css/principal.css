@@ -8,8 +8,13 @@
     gap: 100px;
     color: var(--cor-secundaria-01);
 }
+.carrossel-principal a{
+    display: block;
+    height: 100%;
+}
 .img-carrossel{
-    max-width: 100%;
+    display: block;
+    width: 100%;
     margin: 0px;
 }
 .carrossel-principal h1{
