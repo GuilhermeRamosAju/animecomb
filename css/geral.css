@@ -12,10 +12,8 @@
 }
 body{
     background-color: var(--cor-fundo);
-}
-img{
-    display: block;
-    margin: 0;
+    height: 100vh;
+    width: 100vw;
 }
 .botao{
     font-size: 1.2rem;
