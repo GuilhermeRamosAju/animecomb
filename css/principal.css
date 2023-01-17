@@ -1,6 +1,6 @@
 .carrossel-principal{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     max-width: 1400px;
     max-height: 400px;
     padding: 32px 90px;
