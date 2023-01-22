@@ -156,6 +156,9 @@
     .nota-ep{
         order: 1;
         max-width: 150px;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: var(--cor-principal-01);
     }
     .nota-ep h3{
         font-size: 1.4em;
@@ -164,4 +167,9 @@
         max-width: 100px;
         margin: 0 auto;
     }    
+}
+@media (max-width: 400px){
+    .img-avaliado{
+        display: none;
+    }
 }
