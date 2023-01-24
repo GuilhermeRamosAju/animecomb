@@ -1,10 +1,13 @@
 @import "geral.css";
 @import "menu.css";
+@import "footer.css";
+
+
 @import "principal.css";
 @import "destaques.css";
 @import "avaliado.css";
 @import "noticia.css";
-@import "footer.css";
 
+@import "anime.css"
 
 
