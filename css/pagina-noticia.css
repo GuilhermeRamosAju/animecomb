@@ -1,0 +1,16 @@
+.mais-novas{
+    display: flex;
+    gap: 100px;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.noticia-nova{
+    max-width: 560px;
+
+}
+.noticia-nova img{
+    max-width: 560px;
+    max-height: 360px;
+    border-radius: 8px;
+}

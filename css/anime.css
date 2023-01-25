@@ -76,3 +76,60 @@
         margin-right: 5px;
     }
 }
+/* Fim Sumário */
+.lista-ep{
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0px 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: var(--cor-secundaria-02);
+}
+.lista-ep img{
+    padding: 4px;
+}
+.lista-ep img:hover{
+    border-radius: 4px;
+    background-color: var(--cor-principal-04);
+}
+.lista-titulo{
+    display: flex;
+    gap: 6px;
+    font-size: 1.3em;
+    padding: 45px;
+    background-color:#0D0D0D;
+}
+.episodio:nth-child(even){
+    background-color: #191919;
+}
+.episodio:nth-child(odd){
+    background-color: #0D0D0D;
+}
+.episodio{
+    font-size: 1.1em;
+    line-height: 150%;
+    padding: 45px;
+}
+.episodio p{
+    max-width: 900px;
+}
+.vermais{
+    text-align: center;
+    padding-top: 10px;
+}
+@media (max-width: 600px){
+    .lista-ep{
+        margin: 20px auto;
+        padding: 0px;
+    }
+    .lista-titulo{
+        font-size: 1.2em;
+        padding: 25px;
+    }
+    .episodio{
+        font-size: 1em;
+        line-height: 150%;
+        padding: 25px;
+    }
+}
