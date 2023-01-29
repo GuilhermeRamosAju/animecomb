@@ -25,7 +25,11 @@
 .sumario a{
     margin-right: 10px;
 }
-@media (max-width:1200px){
+#botao-lista,
+#botao-trailer{
+    font-size: 1em;
+}
+@media (max-width:1300px){
     .sumario img{
         max-width: 600px;
         max-height: 300px;
@@ -96,7 +100,7 @@
 .lista-titulo{
     display: flex;
     gap: 6px;
-    font-size: 1.3em;
+    font-size: 1.2em;
     padding: 45px;
     background-color:#0D0D0D;
 }
@@ -107,7 +111,7 @@
     background-color: #0D0D0D;
 }
 .episodio{
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 150%;
     padding: 45px;
 }
@@ -118,7 +122,7 @@
     text-align: center;
     padding-top: 10px;
 }
-@media (max-width: 600px){
+@media (max-width: 800px){
     .lista-ep{
         margin: 20px auto;
         padding: 0px;
