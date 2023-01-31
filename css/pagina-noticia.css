@@ -1,3 +1,4 @@
+/* Noticias principais */
 main{
     max-width: 1400px;
     margin: 0 auto;
@@ -17,12 +18,16 @@ main{
     margin-bottom: 20px;
     border-radius: 8px;
 }
-.noticia-nova span{
+.noticia-nova,
+article span{
     font-size: 1em;
     color: var(--cor-secundaria-05);
 }
 .noticia-nova h1{
     font-size: 2em;
+}
+.noticia-nova h1:hover{
+    color: var(--cor-secundaria-03);
 }
 @media (max-width: 1400px){
     .mais-novas{
@@ -90,4 +95,23 @@ main{
 .conteiner-noticia{
     margin: 0 auto;
     max-width: 1400px;
+}
+
+/* Demais noticicas*/
+.mais-noticias{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+article{
+    display: flex;
+    max-width: 800px;
+    gap: 20px;
+    align-items: center;
+}
+article img{
+    max-width: 400px;
+    border-radius: 4px;
 }
