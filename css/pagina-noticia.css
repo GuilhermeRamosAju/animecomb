@@ -131,7 +131,7 @@ main{
     .conteiner-noticia::before{
         width: 3px;
         left: 10px;
-        height: 620px;  
+        height: 550px;  
     }
     .noticia-menor {
         max-width: 800px;
