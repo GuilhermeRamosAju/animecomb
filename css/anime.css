@@ -121,6 +121,10 @@
 .vermais{
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 10px;
+    color: var(--cor-secundaria-05);
+    cursor: pointer;
+
 }
 @media (max-width: 800px){
     .lista-ep{
